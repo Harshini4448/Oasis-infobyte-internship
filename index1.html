@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystic Metals</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <div class="logo">Mystic Metals</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Exquisite Jewelry by Mystic Metals</h1>
+            <p>Discover the finest collection of jewelry that speaks elegance and sophistication.</p>
+            <a href="#collections" class="btn">Explore Collections</a>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Mystic Metals, we create timeless pieces that bring out the elegance in you. Our dedication to craftsmanship ensures that every piece is a masterpiece.</p>
+    </section>
+    <section id="collections" class="collections">
+        <h2>Our Collections</h2>
+        <div class="collection-item">
+            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqN83Dno4hET5oL_CPjfSwspL8rfgFoWc3uQ&s alt="Collection 1">
+            <h3>Collection 1</h3>
+            <p>Beautifully crafted pieces for every occasion.</p>
+        </div>
+        <div class="collection-item">
+            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ3kvWCUWKQT_T6RIZaVV5TAdPApLp6WInbA&salt="Collection 2">
+            <h3>Collection 2</h3>
+            <p>Elegant designs that capture the essence of beauty.</p>
+        </div>
+        <!-- Add more collection items as needed -->
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mystic Metals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
